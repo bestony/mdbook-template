@@ -1,0 +1,20 @@
+[book]
+authors = ["白宦成 <bestony@linux.com>"]
+language = "zh-Hans"
+multilingual = false
+src = "src"
+title = "书名"
+description = "书的描述"
+
+
+[output.html]
+git-repository-url = "https://github.com/bestony/EasyWordPressBook"
+git-repository-icon = "fa-github"
+edit-url-template = "https://github.com/bestony/EasyWordPressBook/edit/main/{path}"
+cname = "easywpbook.com"
+# for page toc
+additional-css = ["theme/pagetoc.css"]
+additional-js = ["theme/pagetoc.js"]
+
+[output.linkcheck]
+# for check url
